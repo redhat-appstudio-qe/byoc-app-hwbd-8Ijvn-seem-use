@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: wbct
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-uvgy-tenant/byoc-app-hwbd/wbct@sha256:9876c38f0d589ee2614c517ba742ba362b7eec56a0ec76a8e371614dea91cd9c
         name: my-java-quarkus
         ports:
         - containerPort: 8081
